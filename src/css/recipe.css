@@ -1,0 +1,31 @@
+.recipe{
+   padding: 10px;
+   border-bottom: 2px solid black;
+}
+
+.recipe__heading{
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+.recipe__content{
+   margin: 5px 10px;
+}
+
+.recipe__label{
+ font-weight: 600;
+}
+
+.recipe__value{
+  font-weight: 300;
+} 
+
+.recipe__indented{
+   margin-left: 10px;
+}
+
+.recipe__instruction{
+   white-space:pre-wrap;
+}

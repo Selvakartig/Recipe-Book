@@ -1,0 +1,33 @@
+.btn{
+   font-size: medium;
+   font-weight: bold;
+   color: white;
+   border: none;
+   padding: 5px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   background-color: inherit;
+}
+
+.btn:hover{
+   transform: translate(-1px, 1px);
+}
+
+.btn-primary{
+   background-color: rgb(38, 195, 243);
+}
+
+.btn-primary-sm{
+   font-size: small;
+   background-color: rgb(38, 195, 243);
+}
+
+.btn-danger{
+   background-color: rgb(252, 80, 80);
+}
+
+.btn-danger-sm{
+   font-size: small;
+   background-color: rgb(252, 80, 80);
+}
+
